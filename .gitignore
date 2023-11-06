@@ -1,0 +1,55 @@
+__pycache__/
+*.pyc
+# Ignore database files
+*.sqlite3
+
+# Ignore media and static files (user-uploaded content, and generated/static files)
+/media/
+/static/
+
+# Ignore virtual environment
+venv/
+__pycache__/
+
+# Ignore local settings (you should use environment variables or a separate settings file)
+local_settings.py
+
+# Ignore logs and generated files
+*.log
+*.pot
+*.pyc
+__pycache__/
+*.swp
+*.swo
+*.swn
+
+# Ignore secret keys and sensitive information
+*.env
+.env
+
+# Ignore any compiled or built files
+*.pyc
+*.pyo
+__pycache__/
+*.db
+*.sqlite3
+
+# Ignore generated or temporary directories
+__pycache__/
+.DS_Store
+node_modules/
+__node/
+.env
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore database migrations if you are using South or other migration tools
+/migrations/
+
+# Ignore environment-specific configuration files
+.envrc
+
+Pipfile
+Pipfile.lock
